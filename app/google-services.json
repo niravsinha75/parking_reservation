@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "442812278725",
+    "firebase_url": "https://parkease-5f26e-default-rtdb.firebaseio.com",
+    "project_id": "parkease-5f26e",
+    "storage_bucket": "parkease-5f26e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442812278725:android:225d58ed976b3906ee0dac",
+        "android_client_info": {
+          "package_name": "com.example.parkig_reservation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvCpA7i6zrf7IHA79ZXdQRhbaszSu76I8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

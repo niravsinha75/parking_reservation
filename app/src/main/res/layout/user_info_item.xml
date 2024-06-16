@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/text_vehicle_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_vehicle_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_owner_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_parking_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button_delete_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete User"
+        android:background="@android:color/holo_red_light"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

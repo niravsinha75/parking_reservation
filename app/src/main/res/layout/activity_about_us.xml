@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3D8F8"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/about_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/about_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to ParkEase Dombivli, your go-to destination for hassle-free parking solutions. At ParkEase, we understand the challenges of finding convenient parking in busy urban areas. That's why we've created a user-friendly platform that connects drivers with available parking spaces quickly and efficiently. Whether you're heading to work, running errands, or attending an event, our intuitive system helps you find and reserve parking with ease. Our mission is to simplify the parking experience, saving you time and stress while ensuring you always have a spot waiting for you. Join us today and experience the convenience of stress-free parking!"
+        android:textSize="16sp"
+        android:layout_below="@+id/about_title"
+        android:textColor="@android:color/black"
+        android:lineSpacingExtra="4dp"/>
+
+</RelativeLayout>

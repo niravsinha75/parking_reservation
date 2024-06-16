@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6522DC"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".user_form">
+
+    <TextView
+        android:id="@+id/selectedRadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Vehicle Type:"
+        android:textColor="#03A9F4"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:gravity="center"
+        android:text="Enter Vehicle Information"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/vehicle_Model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/baseline_directions_car_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Vehicle Model"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/vehicle_Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/baseline_directions_car_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Vehicle RTO Number"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/baseline_directions_car_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Owner Name"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/parkingDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/baseline_directions_car_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Parking Duration (hours)"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/TimeDate_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Submit"
+        android:backgroundTint="#03A9F4" />
+
+    <LinearLayout
+        android:id="@+id/userFormLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/parkingcar"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
